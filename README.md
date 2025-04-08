@@ -21,5 +21,5 @@ A curated dataset of governance systems across world history—spanning ancient,
 ```bash
 git clone https://github.com/its-not-rocket-science/global-governance-models
 cd global-governance-models
-pip install pandas matplotlib plotly openpyxl
+pip install -r requirements.txt
 python src/governance_models_export.py

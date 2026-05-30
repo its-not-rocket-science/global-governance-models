@@ -1,0 +1,25 @@
+Column,Description,Data Type,Example,Notes
+System,"Name of the governance system",String,"Roman Republic",Primary key identifier
+Start,"Beginning year of system",Integer,-509,BCE dates as negative numbers
+End,"Ending year of system",Integer,-27,"0 indicates still existing"
+Region,"Geographic area of system",String,"Mediterranean",Broad cultural/geographic zone
+Latitude,"Approximate center point",Float,41.9,Decimal degrees
+Longitude,"Approximate center point",Float,12.5,Decimal degrees
+Historical Epoch,"Archaeological/historical period",String,"Iron Age",Standard periodization
+Existence,"Real, Projected, or Speculative system",String,"Real",Categories: Real/Projected/Speculative
+Evidence Strength,"1-5 scale of archaeological/historical evidence",Integer,5,"1=weak, 5=strong"
+Characteristics,"Key distinguishing features",String,"Mixed government with consuls, senate, assemblies",Free text description
+Comparators,"Similar systems for analysis",String,"US Constitution, Carthaginian republic",Used for parallel/contrast analysis
+Governance Type,"Classification of power structure",String,"Mixed Constitution",Standardized categories
+Belief System,"Dominant religious/philosophical framework",String,"Roman polytheism",May include syncretic systems
+Collapse Cause,"Primary reason for system's end",String,"Imperialism",Free text explanation
+Gender Roles,"Gender participation in governance",String,"Male patricians",Description of gendered aspects
+Economic Base,"Primary economic activities",String,"Slave plantations",Key productive systems
+Decision Tools,"Methods/technologies for governance",String,"Tabula laws",Physical/ritual objects used
+Environmental Management,"Ecological interaction strategies",String,"Aqueducts",Resource management approaches
+Dispute Mechanisms,"Conflict resolution systems",String,"Senatorial debates",Formal/informal processes
+Technology/Innovation,"Notable technological adaptations",String,"Concrete",Material innovations
+Power Source,"Basis of political legitimacy",String,"Clientelism",Conceptual foundations
+Succession Method,"Leadership transition process",String,"Elective",Hereditary/elective/etc.
+Recorded By,"Primary historical sources",String,"Cicero",Ancient/medieval references
+Comparative Insights,"Analysis notes for researchers",String,"Parallels: Venetian Great Council. Contrasts: More militaristic than Athenian model",Pre-formatted comparisons
